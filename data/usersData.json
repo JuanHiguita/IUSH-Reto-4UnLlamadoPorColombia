@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "Jose Enrique Acevedo Lopez",
+      "password": "3216",
+      "firstName": "Jose Enrique",
+      "lastName": "Acevedo Lopez",
+      "disability": "Con Condicion de Discapacidad Visual",
+      "addres": "Cra 23a #45-21",
+      "city": "Medellin",
+      "department": "Antioquia",
+      "phone": "3214568790",
+      "photoUrl": "../src/images/hombreConGafas.jpg"
+    },
+    {
+      "id": "Alejandro Yepes Roman",
+      "password": "4567",
+      "firstName": "Alejandro",
+      "lastName": "Yepes Roman",
+      "disability": "Con Condicion de Discapacidad Auditiva",
+      "addres": "Cra 23a #45-21",
+      "city": "Cali",
+      "department": "Valle del Cauca",
+      "phone": "3214568790",
+      "photoUrl": "../src/images/Hombre2.jpg"
+    },
+    {
+      "id": "Andres Perez Perez",
+      "password": "0982",
+      "firstName": "Andres",
+      "lastName": "Perez Perez",
+      "disability": "Con Condicion de Discapacidad Cognitiva",
+      "Addres": "Cra 23a #45-21",
+      "city": "Mocoa",
+      "department": "Putumayo",
+      "phone": "3214568790",
+      "photoUrl": "../src/images/personaSindromeDown.jpg"
+    },
+    {
+      "id": "Valentina Garzon Muñoz",
+      "password": "0324",
+      "firstName": "Valentina",
+      "lastName": "Garzon Muñoz",
+      "disability": "En Situacion de Discapacidad de Embarazo",
+      "addres": "Cra 23a #45-21",
+      "city": "Sabaneta",
+      "department": "Antioquia",
+      "phone": "3214568790",
+      "photoUrl": "../src/images/mujer.jpg"
+    }
+  ]
+}

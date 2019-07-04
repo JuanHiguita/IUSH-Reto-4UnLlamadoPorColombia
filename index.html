@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Colscape</title>
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="./styles/css/loginStyle.css" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="./styles/css/particlesStyle.css"
+    />
+  </head>
+
+  <body>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    <div class="heroLogo mt-4 ">
+      <img
+        class="logo"
+        src="./src/images/16abbc12-c579-49fb-a473-9546f901d84d.jpeg"
+        alt=""
+      />
+    </div>
+    <div class="container-fluid" id="app">
+      <div class="row align-items-center justify-content-center add-user">
+        <div class="button-copy">
+          <h4>Iniciar Sesión</h4>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-12 col-sm-8 pl-0 pr-0 form-content open d-none">
+          <form>
+            <div
+              class="row align-items-center justify-content-center group-field"
+            >
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-sm-around align-items-sm-center form--field"
+              >
+                <label class="mb-2 mb-sm-0 mr-0 mr-sm-2"
+                  >Nombre Completo*</label
+                >
+                <input
+                  type="text"
+                  id="userName"
+                  class="form--element"
+                  name="user"
+                  placeholder="Nombre Completo"
+                />
+              </div>
+            </div>
+            <hr />
+            <div
+              class="row align-items-center justify-content-center group-field"
+            >
+              <div
+                class="d-flex flex-column flex-sm-row justify-content-sm-around align-items-sm-center form--field"
+              >
+                <label class="mb-2 mb-sm-0 mr-0 mr-sm-4">Contraseña*</label>
+                <input
+                  type="password"
+                  id="password"
+                  class="form--element"
+                  name="password"
+                  placeholder="Clave 4 números"
+                />
+              </div>
+            </div>
+            <div
+              class="row align-items-center justify-content-center group-buttons mt-4"
+            >
+              <div class="col-12 text-center ">
+                <button type="button" class="submit-button" id="submit-button">
+                  Ingresa
+                </button>
+              </div>
+              <!--<div class="col-12 text-center cancel">
+              <span @click="cancel()">Cancel</span>
+            </div>-->
+            </div>
+          </form>
+        </div>
+        <div class="w-100"></div>
+        <div class="col mt-4">
+          <div class="alert alert-danger" role="alert" id="alert-box-1">
+            <!-- text with jQuery -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="src/js/login.js"></script>
+    <script src="./src/js/particles.js"></script>
+    <script src="./src/js/particlesConfig.js"></script>
+  </body>
+</html>

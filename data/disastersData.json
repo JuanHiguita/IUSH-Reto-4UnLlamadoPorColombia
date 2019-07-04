@@ -1,0 +1,28 @@
+{
+  "disasters": [
+    {
+      "disaster": "Derrumbe",
+      "warningMessage": "Señor usuario cerca de su residencia ha ocurrido un derrumbe, se encuentra en alerta Naranja, por lo que lo invitamos a seguir las siguientes recomendaciones.",
+      "survivalProcedure": "-> Mantenga la calma. ->Ubique la salida más cercana. ->Busque apoyo en caso de ser necesario. -> Este preparado para una posible evacuación. -> Mantenga los documentos personales con usted. -> Revise continuamente este aplicativo.",
+      "moreInformation": "En caso de necesitar mayor información presione el botón ubicado en la parte inferior de la pantalla que dice “Prepárate”."
+    },
+    {
+      "disaster": "Incendio de cortura vegetal",
+      "warningMessage": "Señor usuario le informamos que cerca de su ubicación se está propagando un incendio, se encuentra en alerta Naranja, por lo que lo invitamos a seguir las siguientes recomendaciones.",
+      "survivalProcedure": "-> Mantenga la calma. -> Busque apoyo en caso de ser necesario. -> Este preparado para una posible evacuación. -> Mantenga los documentos personales con usted. -> Revise continuamente este aplicativo.",
+      "moreInformation": "En caso de necesitar mayor información presione el botón ubicado en la parte inferior de la pantalla que dice “Prepárate”."
+    },
+    {
+      "disaster": "Inundacion",
+      "warningMessage": "Señor usuario le informamos que cerca de su ubicación ha ocurrido una creciente subita, se encuentra en alerta Naranja, por lo que lo invitamos a seguir las siguientes recomendaciones.",
+      "survivalProcedure": "-> Mantenga la calma. -> Ubique la salida más cercana. -> Busque apoyo en caso de ser necesario. -> Este preparado para una posible evacuación. -> Mantenga los documentos personales con usted. -> Revise continuamente este aplicativo.",
+      "moreInformation": "En caso de necesitar mayor información presione el botón ubicado en la parte inferior de la pantalla que dice “Prepárate”."
+    },
+    {
+      "disaster": "Sismo",
+      "warningMessage": "Señor usuario le informamos que cerca de su ubicación ha ocurrido una sismo de poca intensidad, se encuentra en alerta Naranja, por lo que lo invitamos a seguir las siguientes recomendaciones.",
+      "survivalProcedure": "-> Mantenga la calma. -> Ubique la salida más cercana. -> Busque apoyo en caso de ser necesario. -> Este preparado para una posible evacuación. -> Mantenga los documentos personales con usted. -> Revise continuamente este aplicativo.",
+      "moreInformation": "En caso de necesitar mayor información presione el botón ubicado en la parte inferior de la pantalla que dice “Prepárate”."
+    }
+  ]
+}
